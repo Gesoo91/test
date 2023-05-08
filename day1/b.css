@@ -1,0 +1,8 @@
+table {
+    border: 1px solid black;
+  }
+  tr, td {
+    border: 1px solid red;
+    padding: 10px;
+  }
+  /* solid 실선 padding 안쪽여백 */

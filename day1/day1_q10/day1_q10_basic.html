@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <form><!-- 기본 폼 설명-->
+        id:<input type="text"><br>
+        password:<input type="password"><br>
+        pwre:<input type="password"><br>
+        검색:<input type="search"><br>
+        이메일 입력:<input type="email"><br>
+        <!-- form태그 안되도 표시는 되지만 fm으로 배워두자.
+        form name, form action 등 다양함 -->
+    </form>
+    <form><!-- 체크박스 여러개 체크가능-->
+        <input type="checkbox" checked>고양이
+        <input type="checkbox">개
+        <input type="checkbox">토끼
+        <!-- <input type="number"> 넘버 -->
+    </form>
+    <form><!-- 라디오 버튼 (둥근버튼) 하나만선택됨 이슈가 하나 있음.name으로 같은 이름을 줘서 묶어주면 하나의 그룹이 됨.-->
+        <input type="radio" name="my_animal" value="cat" checked>고양이
+        <input type="radio" name="my_animal" value="dog">개
+        <input type="radio" name="my_animal" value="rabbit">토끼<br>
+        좋아하는 과일
+        <input type="radio" name="x" value="cat" checked>사과
+        <input type="radio" name="x" value="dog">귤
+        <input type="radio" name="x" value="rabbit">유자 <br>
+        <input type="button" name="go" id="button" value="버튼입니다.">
+        <!-- 인풋 타입 버튼에 벨류를 쓰면 버튼에 글자써짐 -->
+        <input>
+        <input>
+        <input type="reset" value="리셋입니다.">
+        <input type="submit" value="회원가입">
+        <!-- 섭밋으로 연동하는 역할 jsp같은거 배우면 회원가입처리하고 그런거 가능-->
+    </form>
+    <!-- 폼테그 많이 쓸거임 아마도 -->
+    <form><!-- date-->
+        <input type="date">
+        <input type="month">
+        <input type="week">
+        <input type="time">
+        <input type="datetime-local">
+    </form>
+</body>
+</html>
